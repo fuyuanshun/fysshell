@@ -34,8 +34,11 @@
 
     </extensions>
     <actions>
-        <action id="RightButton" class="com.fys.fysshell.MainAction" text="Java Shell">
-            <add-to-group group-id="AnalyzeActions" anchor="last"/>
-        </action>
+        <group id="com.fys.fysshell.JavaShell" text="Java Shell" popup="true">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+
+            <action id="com.fys.fysshell.JPS" class="com.fys.fysshell.JPS" text="jps">
+            </action>
+        </group>
     </actions>
 </idea-plugin>
