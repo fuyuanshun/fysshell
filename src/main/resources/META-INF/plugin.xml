@@ -39,6 +39,10 @@
 
             <action id="com.fys.fysshell.JPS" class="com.fys.fysshell.JPS" text="jps">
             </action>
+            <action id="com.fys.fysshell.JInfo" class="com.fys.fysshell.JInfo" text="jinfo">
+            </action>
+            <action id="com.fys.fysshell.JStack" class="com.fys.fysshell.JStack" text="jstack">
+            </action>
         </group>
     </actions>
 </idea-plugin>
